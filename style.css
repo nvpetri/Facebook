@@ -100,3 +100,53 @@ form a{
     color: #1877f2;
     font-size: 0.875rem;
 }
+
+.link .forgot:hover{
+    text-decoration: underline;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button{
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button a{
+    padding: 15px 20px;
+    background: #42b72a;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 1.063rem;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+@media (max-width: 900px){
+    .facebook-page{
+        flex-direction: column;
+        text-align: center;
+    }
+    .facebook-page .text{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 460px){
+    .facebook-page h1{
+        font-size: 3.5rem;
+    }
+    .facebook-page p{
+        font-size: 1.3rem;
+    }
+    form{
+        padding: 15px;
+    }
+}
