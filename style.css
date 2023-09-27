@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto';
+    font-family: 'Helvetica';
 }
 
 .flex{
@@ -12,7 +12,7 @@
 
 .container{
     padding: 0 15px;
-    min-height: 100vh;
+    min-height: 90vh;
     justify-content: center;
     background: #f0f2f5;
 }
@@ -149,4 +149,22 @@ hr{
     form{
         padding: 15px;
     }
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    padding-left: 800px;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+footer a{
+    padding-left: 700px;
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }
