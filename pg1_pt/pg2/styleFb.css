@@ -17,7 +17,8 @@ img {
 }
 
 .logo-facebook {
-    width: 80px;
+    width: 66px;
+    margin-left: 10px;
 }
 
 hr {
@@ -26,15 +27,57 @@ hr {
     background-color: #ccc;
 }
 
-.imagem-container {
-    background-color: blue;
-    border-radius: 10px;
-}
-
 .imgContainer {
-    background-color: #fff;
+    background-color: white;
     width: 600px;
     height: 400px;
-    padding: 10px;
-    border-radius: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+}
+
+.busca {
+    width: 250px;
+    height: 40px;
+    border-radius: 25px;
+    border-color: transparent;
+    background-color: #e6e6e6d0;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+}
+
+::placeholder {
+    font-size: 15px;
+}
+
+input {
+    padding-left: 35px;
+}
+
+.lupa {
+    width: 40px;
+    z-index: 1;
+    margin-right: -40px;
+}
+
+img {
+    border-radius: 30px;
+}
+
+.blank {
+    height: 90px;
 }

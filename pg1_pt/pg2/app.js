@@ -1,6 +1,6 @@
 const apiKey = '41Ap8BBPuKfQeclpjj3Vv3DpEX0JAFFdG4h92EcxL7RIczK0wuoQ6b5v'
 const numberOfImages = 40
-const theme = 'web-development'
+const theme = 'gaming setup'
 const apiUrl = `https://api.pexels.com/v1/search?query=${theme}&per_page=${numberOfImages}`
 
 fetch(apiUrl, {
