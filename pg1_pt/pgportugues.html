@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./stylept.css">
-    <script src="../app.js"></script>
+    <script src="./app.js" defer></script>
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" type="image/x-icon">
     <title>Facebook</title>
 </head>
@@ -21,10 +21,10 @@
                     <p>fazem parte da sua vida.</p>
                 </div>
                 <div class="form">
-                    <input type="email" placeholder="Insira seu e-mail aqui" required>
-                    <input type="password" placeholder="Insira sua senha aqui" required>
+                    <input type="email" placeholder="Insira seu e-mail aqui" required id="email">
+                    <input type="password" placeholder="Insira sua senha aqui" required id="senha">
                     <div class="link">
-                        <button type="submit" class="login"> Entrar </button>
+                        <button type="submit" class="login" id="login"> Entrar </button>
                         <a href="#" class="forgot">Esqueceu a senha?</a>
                     </div>
                     <hr>

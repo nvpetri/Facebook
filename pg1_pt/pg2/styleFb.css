@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f2f5;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+}
+
+.logo-facebook {
+    width: 80px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.imagem-container {
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.imgContainer {
+    background-color: #fff;
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+    border-radius: 40px;
+}

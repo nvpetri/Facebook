@@ -11,7 +11,7 @@ function teste() {
 
     if (email && senha) {
         if (email == validaEmail && senha == validaSenha) {
-            window.location.href = './pg1_pt/pg2/index.html'
+            window.location.href = './pg2/index.html'
         } else {
             alert('Email e/ou senha incorreto (s)!')
         }
