@@ -1,44 +1,44 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Helvetica';
 }
 
-.flex{
+.flex {
     display: flex;
     align-items: center;
 }
 
-.container{
+.container {
     padding: 0 15px;
     min-height: 90vh;
     justify-content: center;
     background: #f0f2f5;
 }
 
-.facebook-page{
+.facebook-page {
     justify-content: space-between;
     max-width: 1000px;
     width: 100%;
 }
 
-.facebook-page .text{
+.facebook-page .text {
     margin-bottom: 90px;
 }
 
-.facebook-page h1{
+.facebook-page h1 {
     color: #1877f2;
     font-size: 4rem;
     margin-bottom: 10px;
 }
 
-.facebook-page p{
+.facebook-page p {
     font-size: 1.75rem;
     white-space: nowrap;
 }
 
-form{
+.form {
     display: flex;
     flex-direction: column;
     background: #fff;
@@ -48,7 +48,7 @@ form{
     width: 100%;
 }
 
-form input{
+.form input {
     height: 55px;
     width: 100%;
     border: 1px solid #ccc;
@@ -58,24 +58,24 @@ form input{
     padding: 0 14px;
 }
 
-form input:focus{
+.form input:focus {
     outline: none;
     border-color: #1877f2;
 }
 
-::placeholder{
+::placeholder {
     color: #777;
     font-size: 1.063rem;
 }
 
-.link{
+.link {
     display: flex;
     flex-direction: column;
     text-align: center;
     gap: 16px;
 }
 
-.link .login{
+.link .login {
     border: none;
     outline: none;
     cursor: pointer;
@@ -88,24 +88,24 @@ form input:focus{
     transition: 0.2 ease;
 }
 
-.link .login:hover{
+.link .login:hover {
     background: #0d65d9;
 }
 
-form a{
+.form a {
     text-decoration: none;
 }
 
-.link .forgot{
+.link .forgot {
     color: #1877f2;
     font-size: 0.875rem;
 }
 
-.link .forgot:hover{
+.link .forgot:hover {
     text-decoration: underline;
 }
 
-hr{
+hr {
     border: none;
     height: 1px;
     background-color: #ccc;
@@ -113,13 +113,13 @@ hr{
     margin-bottom: 20px;
 }
 
-.button{
+.button {
     margin-top: 25px;
     text-align: center;
     margin-bottom: 20px;
 }
 
-.button a{
+.button a {
     padding: 15px 20px;
     background: #42b72a;
     border-radius: 6px;
@@ -129,24 +129,24 @@ hr{
     transition: 0.2s ease;
 }
 
-@media (max-width: 900px){
-    .facebook-page{
+@media (max-width: 900px) {
+    .facebook-page {
         flex-direction: column;
         text-align: center;
     }
-    .facebook-page .text{
+    .facebook-page .text {
         margin-bottom: 30px;
     }
 }
 
-@media (max-width: 460px){
-    .facebook-page h1{
+@media (max-width: 460px) {
+    .facebook-page h1 {
         font-size: 3.5rem;
     }
-    .facebook-page p{
+    .facebook-page p {
         font-size: 1.3rem;
     }
-    form{
+    .form {
         padding: 15px;
     }
 }

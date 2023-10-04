@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="app.js" defer></script>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Facebook</title>
 </head>
+
 <body>
     <main>
         <div class="container flex">
@@ -18,24 +22,26 @@
                     <p>Connect with friends and the world</p>
                     <p>around you on Facebook.</p>
                 </div>
-                <form action="#">
-                    <input type="email" placeholder="Your e-mail here" required>
-                    <input type="password" placeholder="Your password here" required>
+                <div class="form">
+                    <input id="email" type="email" placeholder="Your e-mail here" required>
+                    <input id="senha" type="password" placeholder="Your password here" required>
                     <div class="link">
-                        <button type="submit" class="login"> Login </button>
+                        <button type="submit" id="login" class="login"> Login </button>
                         <a href="#" class="forgot">Forgot password?</a>
                     </div>
                     <hr>
                     <div class="button">
                         <a href="#">Create new account</a>
                     </div>
-                </form>
+                </div>
+
             </div>
         </div>
     </main>
     <footer>
-            &copy; 2023 Nicolas Vasconcelos
-            <a href="./pg1_pt/pgportugues.html">Translate</a>
+        &copy; 2023 Nicolas Vasconcelos
+        <a href="./pg1_pt/pgportugues.html">Translate</a>
     </footer>
 </body>
+
 </html>
